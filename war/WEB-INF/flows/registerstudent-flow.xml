@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/webflow
+		http://www.springframework.org/schema/webflow/spring-webflow-1.0.xsd">
+
+	<var name="student" class="com.netrepublic.ahse.domain.Student" scope="request" />
+
+	<start-state idref="addNew" />
+
+	<view-state id="addNew" view="newStudentForm">
+		<render-actions>
+			<action bean="studentFormAction" method="setupForm" />
+		</render-actions>
+		<transition on="submit" to="enrollStudent">
+			<action bean="studentFormAction" method="bindAndValidate" />
+		</transition>
+		<transition on="cancel" to="addNew" />
+	</view-state>
+
+	<action-state id="enrollStudent">
+		<action bean="studentEnroller" />
+		<transition on="success" to="showList" />
+	</action-state>
+
+	<view-state id="showList" view="studentListing">
+		<transition on="new" to="finish" />
+	</view-state>
+
+	<end-state id="finish" view="flowRedirect:registerstudent-flow" />
+
+	<import resource="registerstudent-beans.xml" />
+
+	<!--action-state id="placeOrder">
+		<action bean="orderClerk" method="placeOrder(${flowScope.purchase})" resultName="purchaseReceipt"/>
+		<transition on="success" to="showCostConfirmation" />
+		</action-state-->
+	<!--action-state id="processSale">
+		<bean-action bean="saleProcessor" method="process">
+			<method-arguments>
+				<argument expression="flowScope.sale"/>
+			</method-arguments>
+		</bean-action>
+		<transition on="success" to="finish"/>
+	</action-state-->
+</flow>

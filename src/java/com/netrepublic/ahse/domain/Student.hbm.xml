@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="com.netrepublic.ahse.domain">
+	<class name="Student" table="student">
+		<id name="id" type="integer" column="id">
+			<generator class="increment" />
+		</id>
+
+		<property name="firstName" column="firstName" type="string" not-null="true" length="25" />
+		<property name="middleName" column="middleName" type="string" not-null="true" length="25" />
+		<property name="lastName" column="lastName" type="string" not-null="true" length="25" />
+		<property name="nickName" column="nickName" type="string" not-null="true" length="25" />
+		<property name="gender" column="gender" type="string" not-null="true" length="1" />
+		<property name="birthday" column="birthday" type="date" length="10" />
+		<property name="birthPlace" column="birthPlace" type="string" length="30" />
+		<property name="guardian" column="guardian" type="string" length="50" />
+		<property name="guardianContactNo" column="guardianContactNo" type="string" length="25" />
+		<property name="street" column="street" type="string" not-null="true" length="50" />
+		<property name="city" column="city" type="string" not-null="true" length="25" />
+		<property name="district" column="district" type="string" length="25" />
+		<property name="province" column="province" type="string" not-null="true" length="25" />
+		<property name="zip" column="zip" type="integer" length="4" />
+		<property name="email" column="email" type="string" length="35" />
+		<property name="telNo" column="telNo" type="string" length="15" />
+		<property name="celNo" column="celNo" type="string" length="20" />
+		<property name="school" column="school" type="string" not-null="true" length="50" />
+		<property name="year" column="year" type="integer" length="4" />
+		<property name="math" column="math" type="float" length="5" />
+		<property name="science" column="science" type="float" length="5" />
+		<property name="english" column="english" type="float" length="5" />
+		<property name="average" column="average" type="float" length="5" />
+
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,22 @@
+#
+#Mon Mar 31 16:08:43 SGT 2008
+genBasicCompId=false
+sessionFactoryName=
+profile=
+daoSFId=
+version=3.1
+jndiPath=
+detectM2M=false
+reStrategyClass=
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+libInstallFolder=/war/WEB-INF/lib
+addLibs2Project=true
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+reSettingsFile=
+configFile=/ahser/src/hibernate.cfg.xml
+createConfigFile=false
+addLibs2Classpath=true

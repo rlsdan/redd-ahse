@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="java/|config/" kind="src" output="war/WEB-INF/classes" path="src"/>
+	<classpathentry kind="src" output="war/WEB-INF/classes" path="src/java"/>
+	<classpathentry kind="src" output="war/WEB-INF/classes" path="test"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.hibernate.MYECLIPSE_HIBERNATE3_2_CORE"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="com.genuitec.eclipse.j2eedt.core.J2EE14_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring 2.5.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-agent 2.5.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-aop 2.5.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-beans 2.5.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-binding 1.0.5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-context 2.5.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-core 2.5.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-jdbc 2.5.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-orm 2.5.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-tomcat-weaver 2.5.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-web 2.5.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-webflow 1.0.5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-webmvc 2.5.1"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/ant.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/aopalliance.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/asm-commons-2.2.3.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/asm-util-2.2.3.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-attributes-api.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-attributes-compiler.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-codec.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-httpclient.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-io.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-lang.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/easymock.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/easymockclassextension.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/jasperreports-2.0.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/jms.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/jotm.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/junit-4.4.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/qdox-1.5.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/xapool.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-pool.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/mysql-connector-java-5.0.4-bin.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/ognl-2.6.9.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-validator.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

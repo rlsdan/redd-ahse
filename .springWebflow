@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webflow-project-description>
+	<version>1</version>
+	<pluginVersion><![CDATA[2.0.4.v200803111444]]></pluginVersion>
+	<configs>
+		<config>
+			<file>war/WEB-INF/flows/registerstudent-flow.xml</file>
+			<name><![CDATA[registerstudent-flow]]></name>
+			<beans-config><![CDATA[1:BeansModel|2:ahsedummy|3:src/java/com/netrepublic/ahse/service/services-config.xml]]></beans-config>
+			<beans-config><![CDATA[1:BeansModel|2:ahsedummy|3:war/WEB-INF/flows/registerstudent-beans.xml]]></beans-config>
+		</config>
+	</configs>
+</webflow-project-description>

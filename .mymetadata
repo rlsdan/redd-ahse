@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ahsedummy"
+  id="myeclipse.1205204196796"
+  context-root="/ahsedummy"
+  j2ee-spec="1.4"
+  archive="ahsedummy.war">
+  <attributes>
+    <attribute name="webrootdir" value="war" />
+  </attributes>
+</project-module>
+
